@@ -1,0 +1,130 @@
+@font-face {
+  font-family: opensans;
+  src: url(fonts/OpenSans-Regular.woff);
+}
+
+@font-face {
+  font-family: oswald;
+  src: url(fonts/Oswald-Regular.woff);
+}
+
+body {
+  background-color: #080A25;
+  font-family: opensans;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: oswald;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-family: oswald;
+  padding: 0;
+  margin: 0;
+  font-size: 4vw;
+}
+
+h3 {
+  font-size: 2.5vw;
+}
+
+p {
+  font-family: opensans;
+  margin: 0;
+  font-size: 2vw;
+}
+
+.harley {
+  width: 40vw;
+  height: auto;
+}
+
+#main-container {
+  width: 100%;
+  align-items: center;
+  padding-bottom: 5vw;
+  padding-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+#eyes {
+  display: inline-flex;
+  width: 100%;
+}
+
+#eyes-horizontal {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#eyes-vertical {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#title {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  font-size: 5vw;
+}
+
+.header {
+  font-size: 6vw;
+}
+
+#intro {
+  margin: 0;
+  padding: 0;
+  height: 6vw;
+  background-color: #F8837D;
+  color: #080A25;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 3vw;
+}
+
+#maleGaze {
+  color: #FFFFFF;
+  display: inline-flex;
+}
+
+#explanations {
+  width: 40%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+#quote {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-family: opensans;
+  text-align: center;
+  width: 60%;
+  border-left: solid;
+}
+
+#case-intro {
+padding-bottom: 2vw;
+}
+
+#case-study {
+  display: inline-flex;
+  height: 50vw;
+}
+
+#margot-robbie {
+  width: 40%;
+}
+
+#harley-quinn {
+  width: 60%;
+}

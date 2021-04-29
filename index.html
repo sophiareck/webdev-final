@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Internet and the Male Gaze</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="locomotive-scroll.css">
+</head>
+
+<body>
+  <div data-scroll-container id="main-container">
+    <!-- <div id="eyes">
+      <div data-scroll data-scroll-direction="horizontal" id="eyes-horizontal">
+      </div>
+      <div data-scroll data-scroll-direction="vertical" id="eyes-vertical">
+      </div>
+    </div> -->
+    <div id="title">
+      <h1 data-scroll data-scroll-speed="1">The Internet and</h1>
+      <h1 data-scroll data-scroll-speed="4">the Male Gaze</h1>
+    </div>
+    <div data-scroll data-scroll-speed="4" id="intro">
+      <p class="header">What is the 'Male Gaze'?</p>
+    </div>
+    <div data-scroll data-scroll-speed="4" id="maleGaze">
+      <div data-scroll id="explanations">
+        <h2 data-scroll>Male Gaze</h2>
+        <p data-scroll>/meɪl geɪz/ noun</p>
+        <h3 data-scroll>a way of viewing women from a heterosexual male
+          perspective as objects of pleasure or desire.</h3>
+      </div>
+      <div data-scroll id="quote">
+        <h2 data-scroll>
+          "Men act and women appear. Men look at women.
+          Women watch themselves being looked at"</h2>
+        <p data-scroll>- John Berger</p>
+      </div>
+    </div>
+    <div data-scroll id="case-intro">
+      <h2 data-scroll>Case Study: Harley Quinn in Suicide Squad vs. Birds of Prey</h2>
+    </div>
+    <div data-scroll data-scroll-speed="2" id="case-study">
+      <div data-scroll id="margot-robbie">
+        <img class="harley" data-scroll src="harley-quinn.png" alt="harley quinn and the male gaze">
+      </div>
+      <div data-scroll id="harley-quinn">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- scripts -->
+  <script src="locomotive-scroll.min.js"></script>
+  <script>
+    const scroll = new LocomotiveScroll({
+      el: document.querySelector('[data-scroll-container]'),
+      smooth: true
+    });
+  </script>
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
