@@ -38,7 +38,7 @@ p {
 }
 
 .harley {
-  width: 40vw;
+  width: 43vw;
   height: auto;
 }
 
@@ -81,6 +81,11 @@ p {
   font-size: 6vw;
 }
 
+.header2 {
+  font-size: 4.75vw;
+  padding-top: 1vw;
+}
+
 #intro {
   margin: 0;
   padding: 0;
@@ -106,6 +111,7 @@ p {
 #quote {
   padding-left: 2vw;
   padding-right: 2vw;
+  padding-top: 2vw;
   font-family: opensans;
   text-align: center;
   width: 60%;
@@ -113,18 +119,60 @@ p {
 }
 
 #case-intro {
-padding-bottom: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
 
 #case-study {
   display: inline-flex;
-  height: 50vw;
+  height: 40vw;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-color: #F8837D;
 }
 
-#margot-robbie {
+#harley-pic {
+  padding-top: 2vw;
   width: 40%;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
-#harley-quinn {
-  width: 60%;
+#harley-text {
+  width: 45%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+#suicide-squad {
+  display: inline-flex;
+  align-self: center;
+  height: 38vw;
+  justify-content: space-between;
+  padding-bottom: 2vw;
+  border-bottom: dashed;
+}
+
+#birds-of-prey {
+  display: inline-flex;
+  height: 38vw;
+  justify-content: space-between;
+  align-self: center;
+  padding-bottom: 2vw;
+  border-bottom: dashed;
+}
+
+#case-ending {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  display: flex;
+  height: 30vw;
+  border-bottom: solid;
+  border-color: #F8837D;
+  align-self: center;
+  justify-content: center;
+}
+
+#selfie-intro {
+  display: inline-flex;
 }
