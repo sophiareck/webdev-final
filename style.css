@@ -42,6 +42,12 @@ p {
   height: auto;
 }
 
+.selfie-pic {
+  height: 35vw;
+  width: auto;
+  padding-bottom: 2vw;
+}
+
 #main-container {
   width: 100%;
   align-items: center;
@@ -174,5 +180,26 @@ p {
 }
 
 #selfie-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw;
+  border: solid;
+}
+
+#selfie {
   display: inline-flex;
+  justify-content: space-between;
+  height: 40vw;
+  align-items: center;
+  border-bottom: dashed;
+}
+
+#selfie-text {
+  padding-left: 2vw;
+  padding-left: 2vw;
+}
+
+#spacer {
+  height: 5vw;
 }
